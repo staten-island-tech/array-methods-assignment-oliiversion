@@ -29,7 +29,7 @@ const fruityflags = [
       meaning: "L+sex.",
       fruitylevel: "125%"
     },
-  ];
+  ];/* 
   fruityflags.forEach((fruityflags) => console.log(fruityflags.name));
 
   fruityflags.forEach((fruityflags) => {
@@ -39,5 +39,5 @@ const fruityflags = [
   console.log(fruityflags);
 
   const result = fruityflags.filter((fruityflags) => (fruityflags.colors = "blue+green+white"));
-  console.log(result);
+  console.log(result); */
   
