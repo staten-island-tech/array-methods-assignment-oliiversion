@@ -48,11 +48,17 @@ console.log(result);
 fruityflags
   .filter((fruityflags) => fruityflags.fruitylevel > 50)
   .forEach((el) => {
-    console.log(el.name, el.colors);
+    console.log(el.name, el.meaning);
   });
 
   console.log(fruityflags);
 
-  const result = fruityflags.filter((fruityflags) => (fruityflags.colors = "blue+green+white"));
+  const result = fruityflags.filter((fruityflags) => (fruityflags.meaning = "non-women+non-women"));
   console.log(result); 
   
+fruityflags.forEach((fruityflags) => {
+    console.log(fruityflags.name);
+    fruityflags.colors.forEach((colors) => {
+        console.log(colors);
+    })
+})
